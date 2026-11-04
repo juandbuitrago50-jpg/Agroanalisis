@@ -1,0 +1,203 @@
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Agroanálisis - Crear cuenta</title>
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <main class="pagina-login">
+
+        <div class="login-card">
+
+            <!-- LOGO -->
+            <div class="logo-container">
+
+    <img src="img/logo.png" alt="Logo de Agroanálisis" class="logo">
+
+</div>
+
+
+            <!-- TÍTULO -->
+            <h1>Crear cuenta</h1>
+
+            <p class="descripcion">
+                Regístrate para comenzar a utilizar Agroanálisis
+            </p>
+
+
+            <!-- FORMULARIO -->
+            <form id="registerForm">
+
+                <!-- NOMBRE -->
+                <div class="campo">
+
+                    <label for="username">
+                        Nombre de usuario
+                    </label>
+
+                    <input
+                        type="text"
+                        id="username"
+                        placeholder="Ingresa tu nombre de usuario"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- CORREO -->
+                <div class="campo">
+
+                    <label for="registerEmail">
+                        Correo electrónico
+                    </label>
+
+                    <input
+                        type="email"
+                        id="registerEmail"
+                        placeholder="Ingresa tu correo electrónico"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- CONTRASEÑA -->
+                <div class="campo">
+
+                    <label for="registerPassword">
+                        Contraseña
+                    </label>
+
+                    <input
+                        type="password"
+                        id="registerPassword"
+                        placeholder="Crea una contraseña"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- CONFIRMAR CONTRASEÑA -->
+                <div class="campo">
+
+                    <label for="confirmPassword">
+                        Confirmar contraseña
+                    </label>
+
+                    <input
+                        type="password"
+                        id="confirmPassword"
+                        placeholder="Confirma tu contraseña"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- ROL -->
+                <div class="campo">
+
+                    <label for="role">
+                        Selecciona tu rol
+                    </label>
+
+                    <select id="role" required>
+
+                        <option value="">
+                            Selecciona una opción
+                        </option>
+
+                        <option value="agricultor">
+                            Agricultor
+                        </option>
+
+                        <option value="ingeniero">
+                            Ingeniero agrónomo
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- TÉRMINOS -->
+                <div class="terminos">
+
+                    <input
+                        type="checkbox"
+                        id="terms"
+                        required
+                    >
+
+                    <label for="terms">
+
+                        Acepto los
+
+                        <a href="#" id="termsLink">
+                            términos y condiciones
+                        </a>
+
+                    </label>
+
+                </div>
+
+
+                <!-- BOTÓN -->
+                <button
+                    type="submit"
+                    class="btn-login"
+                >
+                    Crear cuenta
+                </button>
+
+            </form>
+
+
+            <!-- REGRESAR AL LOGIN -->
+            <div class="registro">
+
+                <span>
+                    ¿Ya tienes una cuenta?
+                </span>
+
+                <a href="index.html">
+                    Iniciar sesión
+                </a>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- JavaScript -->
+    
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
+```

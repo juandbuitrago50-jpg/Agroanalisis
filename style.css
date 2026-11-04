@@ -1,0 +1,363 @@
+```css
+/* ==========================================
+   CONFIGURACIÓN GENERAL
+========================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+    background: #f4f7f2;
+
+    min-height: 100vh;
+}
+
+
+/* ==========================================
+   PÁGINA
+========================================== */
+
+.pagina-login {
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 20px;
+}
+
+
+/* ==========================================
+   TARJETA
+========================================== */
+
+.login-card {
+
+    width: 100%;
+
+    max-width: 430px;
+
+    background: #ffffff;
+
+    padding: 40px;
+
+    border-radius: 18px;
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+
+
+
+/* ==========================================
+   LOGO
+========================================== */
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.logo {
+    width: 260px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* ==========================================
+   TÍTULO
+========================================== */
+
+h1 {
+
+    font-family: 'Poppins', sans-serif;
+
+    text-align: center;
+
+    font-size: 29px;
+
+    color: #26352d;
+
+    margin-bottom: 8px;
+}
+
+.descripcion {
+
+    text-align: center;
+
+    color: #777;
+
+    font-size: 14px;
+
+    margin-bottom: 30px;
+}
+
+
+/* ==========================================
+   CAMPOS
+========================================== */
+
+.campo {
+
+    margin-bottom: 20px;
+}
+
+.campo label {
+
+    display: block;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    color: #34433b;
+
+    margin-bottom: 8px;
+}
+
+.campo input {
+
+    width: 100%;
+
+    height: 46px;
+
+    padding: 0 14px;
+
+    border: 1px solid #d5ddd7;
+
+    border-radius: 9px;
+
+    outline: none;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 14px;
+
+    transition: 0.2s;
+}
+
+.campo input:focus {
+
+    border-color: #4f8961;
+
+    box-shadow:
+        0 0 0 3px rgba(79, 137, 97, 0.12);
+}
+
+
+/* ==========================================
+   RECUPERAR CONTRASEÑA
+========================================== */
+
+.recuperar {
+
+    text-align: right;
+
+    margin-top: -8px;
+
+    margin-bottom: 22px;
+}
+
+.recuperar a {
+
+    text-decoration: none;
+
+    color: #4f8961;
+
+    font-size: 13px;
+}
+
+.recuperar a:hover {
+
+    text-decoration: underline;
+}
+
+
+/* ==========================================
+   BOTÓN
+========================================== */
+
+.btn-login {
+
+    width: 100%;
+
+    height: 47px;
+
+    border: none;
+
+    border-radius: 9px;
+
+    background: #4f8961;
+
+    color: white;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.btn-login:hover {
+
+    background: #3d704d;
+
+    transform: translateY(-1px);
+}
+
+
+/* ==========================================
+   REGISTRO
+========================================== */
+
+.registro {
+
+    text-align: center;
+
+    margin-top: 25px;
+
+    font-size: 14px;
+
+    color: #777;
+}
+
+.registro a {
+
+    color: #4f8961;
+
+    font-weight: 600;
+
+    text-decoration: none;
+
+    margin-left: 4px;
+}
+
+.registro a:hover {
+
+    text-decoration: underline;
+}
+
+
+/* ==========================================
+   CELULARES
+========================================== */
+
+@media (max-width: 500px) {
+
+    .login-card {
+
+        padding: 30px 22px;
+
+    }
+
+    h1 {
+
+        font-size: 25px;
+
+    }
+
+}
+```
+/* ==========================================
+   SELECT
+========================================== */
+
+.campo select {
+
+    width: 100%;
+
+    height: 46px;
+
+    padding: 0 14px;
+
+    border: 1px solid #d5ddd7;
+
+    border-radius: 9px;
+
+    outline: none;
+
+    background: #ffffff;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 14px;
+
+    color: #34433b;
+
+    cursor: pointer;
+}
+
+.campo select:focus {
+
+    border-color: #4f8961;
+
+    box-shadow:
+        0 0 0 3px rgba(79, 137, 97, 0.12);
+}
+
+
+/* ==========================================
+   TÉRMINOS Y CONDICIONES
+========================================== */
+
+.terminos {
+
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 8px;
+
+    margin-bottom: 22px;
+
+    font-size: 13px;
+
+    color: #777;
+
+    line-height: 1.4;
+}
+
+.terminos input {
+
+    margin-top: 3px;
+
+    accent-color: #4f8961;
+
+    cursor: pointer;
+}
+
+.terminos label {
+
+    cursor: pointer;
+}
+
+.terminos a {
+
+    color: #4f8961;
+
+    text-decoration: none;
+
+    font-weight: 600;
+}
+
+.terminos a:hover {
+
+    text-decoration: underline;
+}
